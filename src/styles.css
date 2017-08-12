@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:400,400italic,600,600italic,700,700italic);
+
+body {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 14px;
+	color: #3f4348;
+	background-color: #fff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 400;
+}
+
+a {
+    color: #ff5656;
+}

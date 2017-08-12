@@ -1,0 +1,47 @@
+.navbar-brand {
+	padding: 0;
+	padding-top: 20px;
+}
+
+.top-search-section {
+	padding-top: 35px;
+}
+
+.input-group .form-control:first-child, .input-group-addon:first-child, .input-group-btn:first-child > .btn, .input-group-btn:first-child > .btn-group > .btn, .input-group-btn:first-child > .dropdown-toggle, .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle), .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+	border-radius: 0;
+	background: #e7e7e7;
+	color: #3f4348;
+	font-weight: 500;
+}
+
+.btn .caret {
+	margin-left: 8px;
+}
+
+.input-group .form-control:last-child, .input-group-addon:last-child, .input-group-btn:last-child > .btn, .input-group-btn:last-child > .btn-group > .btn, .input-group-btn:last-child > .dropdown-toggle, .input-group-btn:first-child > .btn:not(:first-child), .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+	border-radius: 0;
+}
+
+.top-search-section .btn-default {
+	background-color: #83259d;
+	color: #fff;
+}
+
+.cart-section {
+	padding-top: 30px;
+}
+
+.cart-section > .top-icons {
+	padding-right: 7px;
+}
+
+.cart-section > .top-icons > .icon {
+	background: #ff5756;
+	font-size: 25px;
+	padding: 4px;
+	color: #fff;
+}
+
+.cart-section > p {
+	float: right;
+}

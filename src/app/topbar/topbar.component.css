@@ -1,0 +1,25 @@
+.top-bar {
+	background-color: #e7e7e7;
+	overflow: hidden;
+}
+
+.top-social-icons,
+.top-other-icons {
+    display: flex;
+    list-style: none;
+	font-size: 16px;
+}
+
+.top-social-icons > .top-icons,
+.top-other-icons > .top-icons {
+    color: #2e3337;
+    line-height: 16px;
+    padding: 5px 10px;
+	border-right: 1px solid #999;
+}
+
+.top-social-icons > .top-icons:hover,
+.top-other-icons > .top-icons:hover {
+    color: #fe5757;
+    text-decoration: none;
+}

@@ -1,0 +1,31 @@
+<!-- HEADER SECTION -->
+<div class="container">
+	<div class="row">
+    	<div class="col-md-3">
+        	<a class="navbar-brand" title="ShopVilla" href="#"><img src="../../assets/images/logo.png"></a>
+        </div>
+        
+        <div class="col-md-6 top-search-section">
+        	<div class="input-group">
+  				<div class="input-group-btn">
+					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{selectedSearchCategory.name}}<span class="caret"></span></button>
+					<ul class="dropdown-menu">
+						<li *ngFor="let category of productCategories"><a href="#" (click)="onCategorySelect(category)">{{category.name}}</a></li>
+					</ul>
+				</div><!-- /btn-group -->
+				  <input type="text" class="form-control" [(ngModel)]="searchString" placeholder="Enter keywords to search...">
+				<span class="input-group-btn">
+					<button type="button" class="btn btn-default" (click)="onSearchClick(searchString)"><i class="glyphicon glyphicon-search"></i></button>
+				</span>
+			</div>
+        </div>
+        
+        <div class="col-md-3">
+			<nav class="cart-section pull-right">
+				<a href="#" class="top-icons"><i class="icon icon-shopping-cart"></i></a>
+				<p>Shopping Cart<br>{{cartData.noOfItems}} items Rs. {{cartData.totalCost}}</p>
+			</nav>
+        </div>
+    </div>
+</div>
+<!-- END OF HEADER SECTION -->
