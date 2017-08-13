@@ -21,6 +21,8 @@
     "@angular/platform-browser": "^4.3.4",
     "@angular/platform-browser-dynamic": "^4.3.4",
     "@angular/router": "^4.3.4",
+    "angular-bootstrap-switch": "^0.5.2",
+    "angular2-bootstrap-switch": "^0.1.12",
     "axios": "^0.16.2",
     "body-parser": "^1.17.2",
     "bootstrap": "^3.3.7",
