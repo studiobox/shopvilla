@@ -9,6 +9,6 @@ export class LoginService {
 
   getLoginDetails(){
     return this.http.get('/get')
-    .map(res=>res.json);
+    .map(res=>res.json());
   }
 }

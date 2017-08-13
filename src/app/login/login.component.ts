@@ -15,7 +15,6 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     this.loginService.getLoginDetails().subscribe(login => {
       this.login = login;
-     // alert(JSON.stringify(this.login));
     })
   }
 
